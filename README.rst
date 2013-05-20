@@ -3,9 +3,8 @@ Simple starter project with jQuery and Bootstrap
 Prerequisite
 ------------
 
-`Bower <https://github.com/bower/bower>`_ and `Grunt <http://gruntjs.com/getting-started>`_. depends on Node and npm.
-`My blog post <http://www.k3z.fr/blog/post/5/automatisation-bower-grunt>`_ (in french) explain how to use Bower and Grunt in an web project.
-
+* `Bower <https://github.com/bower/bower>`_
+* `Grunt <http://gruntjs.com/getting-started>`_
 * `NodeJS <http://nodejs.org/>`_
 * `npm <http://npmjs.org/>`_
 
@@ -31,7 +30,7 @@ Install Grunt's command line interface (CLI). Grunt will be only installed in yo
 
 
 Installing project-bootstrap
-------------------------------
+----------------------------
 
 Checkout the project.
 
@@ -63,10 +62,10 @@ Run Grunt to initialize project
 Development and production files are now in www/assets/build/
 
 
-Watch & LiveReload
-------------------
+Grunt watch & LiveReload
+------------------------
 
-Grunt can observe you files and execute somme task automaticaly.
+Grunt can observe you files and execute somme tasks automaticaly.
 
 To run Grunt in background
 
