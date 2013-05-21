@@ -1,10 +1,14 @@
-Simple starter project with jQuery and Bootstrap
+Simple starter project for static web development, jQuery and Bootstrap are downloaded with Bower. Project files are optimized with Grunt. Browser tab is refreshed automaticaly with LiveReload.
 
 Prerequisite
 ------------
 
 * `Bower <https://github.com/bower/bower>`_
 * `Grunt <http://gruntjs.com/getting-started>`_
+* `LiveReload Browser extension <http://feedback.livereload.com/knowledgebase/articles/86242-how-do-i-install-and-use-the-browser-extensions->`_
+
+Bower And Grunt need :
+
 * `NodeJS <http://nodejs.org/>`_
 * `npm <http://npmjs.org/>`_
 

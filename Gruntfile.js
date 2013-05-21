@@ -53,15 +53,25 @@ module.exports = function(grunt) {
             }
         },
         watch: {
-            files: [
-                'www/assets/js/*.js',
-                'www/assets/css/*.css',
-                'www/*.html'
-            ],
-            tasks: ['default'],
-            options: {
-                // Start a live reload server on the default port 35729
-                livereload: true
+            'observe': {
+                files: [
+                    'www/assets/js/*.js',
+                    'www/assets/css/*.css'
+                ],
+                tasks: ['default'],
+                options: {
+                    // Start a live reload server on the default port 35729
+                    livereload: true
+                }
+            },
+            'reload': {
+                files: [
+                    'www/*.html'
+                ],
+                options: {
+                    // Start a live reload server on the default port 35729
+                    livereload: true
+                }
             }
         }
     });
