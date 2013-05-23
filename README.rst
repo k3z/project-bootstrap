@@ -63,7 +63,30 @@ Run Grunt to initialize project
     $ grunt
 
 
-Development and production files are now in www/assets/build/
+Development files are now in www/assets/build/.
+
+To get production files run:
+
+::
+
+    $ grunt production
+
+
+Bower Components
+----------------
+
+You can add more components in bower.json config file.
+
+::
+
+    {
+        "name": "project bootstrap",
+        "dependencies": {
+            "jquery": "1.8.x",
+            "components-bootstrap": "2.3.x",
+            "font-awesome": "3.0.2"
+        }
+    }
 
 
 Grunt watch & LiveReload
